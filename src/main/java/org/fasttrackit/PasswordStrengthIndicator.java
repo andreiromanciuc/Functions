@@ -34,8 +34,10 @@ public class PasswordStrengthIndicator {
             System.out.println("Your password is strength");
         else if (6 <= iPasswordScore)
             System.out.println("Your password have normal strength");
-        else
+        else if (4 <= iPasswordScore)
             System.out.println("Your password is weak");
+        else
+            System.out.println("Your password is very weak");
     }
 
 }
