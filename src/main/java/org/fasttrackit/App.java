@@ -5,7 +5,7 @@ public class App
 {
     public static void main( String[] args )
     {
-    PasswordStrengthIndicator passwordStrengthIndicator = new PasswordStrengthIndicator();
-    passwordStrengthIndicator.calculatorStrengthIndicator();
+        MonthstoPayOffaCreditCard monthstoPayOffaCreditCard = new MonthstoPayOffaCreditCard();
+        monthstoPayOffaCreditCard.cardPay();
     }
 }
