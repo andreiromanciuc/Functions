@@ -8,7 +8,7 @@ public class MonthstoPayOffaCreditCard {
 
         Scanner scanner1 = new Scanner(System.in);
         System.out.println("Introduce daily rate");
-        double i = scanner1.nextDouble();
+        double i = scanner1.nextDouble()/365;
         Scanner scanner2 = new Scanner(System.in);
         System.out.println("Introduce balance rate");
         double b = scanner2.nextDouble();

@@ -5,7 +5,7 @@ public class App
 {
     public static void main( String[] args )
     {
-        MonthstoPayOffaCreditCard monthstoPayOffaCreditCard = new MonthstoPayOffaCreditCard();
-        monthstoPayOffaCreditCard.cardPay();
+        ValidatingInputs validatingInputs = new ValidatingInputs();
+        validatingInputs.validating();
     }
 }
