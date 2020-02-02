@@ -5,7 +5,7 @@ public class App
 {
     public static void main( String[] args )
     {
-        ValidatingInputs validatingInputs = new ValidatingInputs();
-        validatingInputs.validating();
+        MonthstoPayOffaCreditCard monthstoPayOffaCreditCard = new MonthstoPayOffaCreditCard();
+        monthstoPayOffaCreditCard.cardPay();
     }
 }
